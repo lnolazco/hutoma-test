@@ -1,0 +1,36 @@
+.message-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.bot .wrapper-icon {
+    background-image: url('/favicon.ico');
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.wrapper-text {
+    padding: 10px;
+    max-width: 60%;
+    margin: 0 10px;
+    position: relative;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.me .wrapper-text {
+    float: right;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.bot .wrapper-text {
+    float: left;
+    background-color: lightgrey;
+    color: black;
+}

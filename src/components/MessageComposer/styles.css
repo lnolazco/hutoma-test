@@ -1,0 +1,11 @@
+.message-composer {
+    height: 64px;
+    background: #ffffff;
+    border: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    resize: none;
+    font-size: medium;
+    padding: 0;
+}

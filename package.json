@@ -1,0 +1,26 @@
+{
+  "name": "hutoma-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-scripts": "1.0.8",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.9.0",
+    "enzyme": "^2.9.1",
+    "prop-types": "^15.5.10",
+    "react-test-renderer": "^15.6.1"
+  }
+}

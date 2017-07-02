@@ -1,0 +1,24 @@
+.chat {
+    width: 350px;
+    margin: auto;
+}
+
+.chat .title {
+    margin: 0;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.chat .inner {
+    overflow: scroll;
+    height: 420px;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+.chat .content {
+    padding: 10.66667px;
+    position: relative;
+    margin-bottom: 32px;
+}
