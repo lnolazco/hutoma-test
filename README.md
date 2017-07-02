@@ -38,4 +38,3 @@ Run `npm test -- --coverage`
 - Add more code coverage
 - Add functional tests
 - Add css preprocessor like sass or less.
-

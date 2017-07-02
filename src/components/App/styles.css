@@ -12,5 +12,5 @@
 
 .app__chat {
   background: #f2f2f2;
-  height: calc(100% - 60px);
+  height: calc(90% - 60px);
 }

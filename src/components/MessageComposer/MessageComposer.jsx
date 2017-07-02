@@ -1,7 +1,13 @@
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 import './styles.css';
 
 class MessageComposer extends PureComponent {
+    static propTypes = {
+        id: PropTypes.string,
+        sendMessage: PropTypes.func
+    };
+
     sendMessage = event => {
         event.preventDefault();
         const text = this.text.value;

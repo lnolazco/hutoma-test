@@ -26,7 +26,7 @@ export class Chat extends Component {
     }
 
     render() {
-        const { messages, sendMessage } = this.props;
+        const { id, messages, sendMessage } = this.props;
 
         return (
             <div className="chat">
@@ -39,7 +39,7 @@ export class Chat extends Component {
                         <div ref="endmessages"></div>
                     </div>
                 </div>
-                <MessageComposer sendMessage={sendMessage} />
+                <MessageComposer id={id} sendMessage={sendMessage} />
             </div>
         );
     }
